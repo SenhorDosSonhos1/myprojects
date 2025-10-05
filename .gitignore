@@ -1,0 +1,77 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+*.whl
+
+# Virtual environment
+env/
+venv/
+ENV/
+.venv/
+env.bak/
+venv.bak/
+
+# Logs, database, media
+*.log
+*.pot
+*.mo
+*.pyc
+db.sqlite3
+db.sqlite3-journal
+media/
+staticfiles/        # se você “collectstatic” gera uma pasta
+# static/           # dependendo de como estiver seu projeto
+
+# Django local settings / secrets
+local_settings.py
+.env                  # se você usa arquivo .env para configurações
+*.env
+
+# IDE / editor específicos
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# OS arquivos
+.DS_Store
+Thumbs.db
+
+# Test / coverage
+.coverage
+.coverage.*
+htmlcov/
+.tox/
+.nox/
+.cache
+.pytest_cache/
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# Outros
+*.bak
+*.swp

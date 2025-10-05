@@ -1,0 +1,89 @@
+Tratar exceções or get_object_or_404
+
+├── app_todo/                  ← lista de tarefas
+├── app_cadastro/              ← cadastro de alunos/usuários
+├── app_blog/                  ← blog simples
+├── app_gastos/                ← controle de gastos
+└── app_api/                   ← exemplo de API REST
+
+🧩 Nível Básico – Fundamentos e CRUD
+
+Esses servem pra dominar o ciclo criar, ler, atualizar e deletar dados (CRUD) + formulários e templates.
+
+To-Do List (Lista de tarefas)
+
+CRUD completo (adicionar, editar, excluir tarefas).
+
+Campos: nome, descrição, status (pendente/concluído).
+
+Pode usar SQLite e Bootstrap simples.
+
+Cadastro de usuários ou alunos
+
+Campos: nome, e-mail, data de nascimento.
+
+Pratique formulários e mensagens de sucesso/erro.
+
+Blog simples
+
+Posts com título, conteúdo e data.
+
+Página inicial com lista e página de detalhes.
+
+Gerenciador de gastos pessoais
+
+Campos: descrição, valor, categoria e data.
+
+Mostre o total gasto e filtro por mês.
+
+⚙️ Nível Intermediário – Lógica e Integração
+
+Começa a incluir autenticação, APIs, consumo de dados externos e lógica de negócio.
+
+Sistema de login e cadastro com Django Auth
+
+Registre, logue e deslogue usuários.
+
+Permita que cada usuário veja apenas seus dados.
+
+Controle de estoque simples
+
+CRUD de produtos (nome, preço, quantidade).
+
+Gere alertas quando o estoque estiver baixo.
+
+Aplicativo de clima (consumindo API)
+
+Consuma a API do OpenWeather e exiba temperatura, umidade etc.
+
+Entrada: nome da cidade.
+
+Simulador de loja online (mini-ecommerce)
+
+Produtos, carrinho, soma do total e checkout falso.
+
+Aprenda relacionamento entre tabelas (Produto–Carrinho).
+
+Sistema de anotações pessoais com tags
+
+Cada usuário pode criar notas e marcá-las com tags.
+
+Inclua busca e filtro.
+
+🚀 Extras para praticar e se destacar
+
+Gerador de senhas seguras
+
+Interface simples para escolher o tamanho e os tipos de caracteres.
+
+Use lógica Python pura.
+
+Bot do Telegram com Python (usando python-telegram-bot)
+
+Pode responder mensagens, mandar frases motivacionais ou status de um site.
+
+API de tarefas (com Django REST Framework)
+
+Pegue o projeto To-Do e transforme em API RESTful.
+
+Permite GET/POST/PUT/DELETE.
