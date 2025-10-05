@@ -29,3 +29,5 @@ def editar(request, id):
         tarefa.save()
         return redirect(reverse('adicionar'))
     return render(request, 'editar.html') 
+
+    #Finalizando lista de tarefas
